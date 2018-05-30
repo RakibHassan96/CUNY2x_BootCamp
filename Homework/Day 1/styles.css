@@ -1,0 +1,100 @@
+#everything {
+	background-color: #f6dbff;
+}
+
+h1 {
+	display: flex;
+
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+#lamar {
+	align-self: flex-start;
+	width: auto;
+	height: auto;
+}
+.title {
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 300%;
+}
+
+#container {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	/*justify-content: center;*/
+	margin-left: 25px;
+}
+
+#profile {
+	/*align-items: center;*/
+}
+
+#achievements {
+	border: solid black 2px;
+	width: auto;
+	max-width: 500px;
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+#hobbies {
+	border: solid black 2px;
+	width: auto;
+	max-width: 500px;
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+a {
+	margin-bottom: 10px;
+	margin-left: 30px;
+	font-size: 200%;
+}
+
+#pics {
+	width: 500px;
+}
+
+#albums {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cover {
+	height: 700px;
+	width: 700px;
+	margin-top: 20px;	
+}
+
+.alb {
+	border: solid black 2px;
+	width: auto;
+	max-width: 500px;
+	padding: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+.pics {
+	margin: 10px 40px;
+}
+
+h2 {
+	text-align: center;
+}
