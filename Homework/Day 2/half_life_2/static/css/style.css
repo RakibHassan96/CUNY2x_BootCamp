@@ -1,0 +1,81 @@
+body {
+    background-color: #26596A;
+    color: #D8D5DB;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+}
+#half_life_heading {
+    color: #B0D7FF;
+    font-family: 'Pacifico', cursive;
+}
+#form_head {
+    color: #EAE8FF;
+}
+ #authors {
+     color: #ADACB5;
+     font-family: 'Abril Fatface', cursive;
+ }
+
+.founders{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+.game_image{
+}
+
+
+#section{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    border: solid black 5px;
+    background: white
+}
+
+.basic_info {
+  color: black;
+  font-size: 25px;
+  background-color: white;
+
+
+}
+
+.basic_info > div{
+  color: black;
+  font-size: 15px;
+  font-family: Impact;
+  text-align: left;
+}
+
+p {
+	border: solid black 2px;
+	padding: 10px;
+	margin-right: 50px;
+	background-color: white;
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	/*max-width: 800px;*/
+	margin-left: 50px;
+}
+
+h1 {
+	font-family: 'Bowlby One SC', cursive;
+	text-align: center;
+	color: white;
+	font-size: 3.0em;
+	margin-bottom: 10px;
+}
+
+#more {
+	font-size: 25px;
+	text-align: center;
+}
+
+.review {
+	text-align: center;
+	justify-content: center;
+}
