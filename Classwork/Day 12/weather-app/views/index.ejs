@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Weathah</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400i|Libre+Franklin|Quicksand:400,500" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <h2>Where you at?</h2>
+        <form action="/" method="post">
+          <input id="cityInput" name="city" type="text" class="ghost-input form-control" placeholder="Enter a City" required>
+          <input id="cityButton" type="submit" class="ghost-button btn btn-outline-primary" value="iight">
+        </form>
+        <% if(weather !== null){ %>
+          <p id="weather"><%= weather %></p>
+        <% } else { %>
+          <p></p>
+        <% } %>
+
+        <% if(maxMin !== null){ %>
+          <p id="maxmin"><%= maxMin %></p>
+        <% } else { %>
+          <p></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+      </fieldset>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  </body>
+</html>

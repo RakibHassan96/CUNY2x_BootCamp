@@ -1,0 +1,36 @@
+.container {
+	width: 400px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	margin: 40px auto;
+	align-items: center;
+	background: white;
+	text-align: center;
+	border: 2px solid black;
+}
+
+body {
+	background: linear-gradient(to right, #2980b9, #6dd5fa, white);
+	align-items: center;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#weather {
+	margin-top: 25px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+}
+
+#maxmin {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
+}
+
+#cityInput{
+	margin-bottom: 20px;
+}
